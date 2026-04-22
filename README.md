@@ -1,9 +1,8 @@
-# Chinese
-```bash
-python main.py train-chinese --corpus-dir ../../baidubaike_chinese
-```
+Pretrained Language Models for Vietnamese Legal texts
+===
 
-# Vietnamese
+Before running the training script, please check the configuration in `configs/viwordformer_pretrain_vietnamese_subset.yaml`.
+
 ```bash
-python main.py train-vietnamese --corpus-dir ../../vietnamese_curated
+python3 run_pretrain.py
 ```
