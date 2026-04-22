@@ -69,13 +69,13 @@ def main():
     parser.add_argument(
         '--config',
         type=str,
-        default='./configs/viwordformer_pretrain_vietnamese_subset.yaml',
+        required=True,
         help='Path to config file'
     )
     parser.add_argument(
         '--corpus-dir',
         type=str,
-        default='../../vietnamese_curated',
+        required=True,
         help='Path to corpus directory with subset_*.txt files'
     )
     parser.add_argument(
